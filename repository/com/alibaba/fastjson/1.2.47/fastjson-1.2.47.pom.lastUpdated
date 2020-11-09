@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Jan 09 10:19:23 CST 2020
+http\://maven.aliyun.com/nexus/content/groups/public/.error=Could not transfer artifact com.alibaba\:fastjson\:pom\:1.2.47 from/to nexus-aliyun (http\://maven.aliyun.com/nexus/content/groups/public)\: maven.aliyun.com
+http\://maven.aliyun.com/nexus/content/repositories/central/.error=Could not transfer artifact com.alibaba\:fastjson\:pom\:1.2.47 from/to alimaven (http\://maven.aliyun.com/nexus/content/repositories/central/)\: maven.aliyun.com
+@default-nexus-aliyun-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1578536363892
+@default-alimaven-http\://maven.aliyun.com/nexus/content/repositories/central/.lastUpdated=1578536363909

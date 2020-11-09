@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Oct 11 10:02:14 CST 2019
+maven-model-2.0.6.pom>nexus-aliyun=
+maven-model-2.0.6.pom>nexus-pluginRepo=
+maven-model-2.0.6.jar>nexus-aliyun=
+maven-model-2.0.6.jar>nexus-pluginRepo=

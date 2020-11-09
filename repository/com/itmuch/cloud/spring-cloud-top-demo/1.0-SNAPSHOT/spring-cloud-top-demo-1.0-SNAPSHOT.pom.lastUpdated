@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Jan 09 10:25:37 CST 2020
+http\://maven.aliyun.com/nexus/content/groups/public/.error=Could not transfer artifact com.itmuch.cloud\:spring-cloud-top-demo\:pom\:1.0-SNAPSHOT from/to nexus-aliyun (http\://maven.aliyun.com/nexus/content/groups/public)\: maven.aliyun.com
+@default-nexus-aliyun-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1578536737627

@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Oct 08 20:21:54 CST 2019
+maven-shared-utils-3.0.1.pom>nexus-pluginRepo=
+maven-shared-utils-3.0.1.pom>nexus-aliyun=
+maven-shared-utils-3.0.1.jar>nexus-aliyun=

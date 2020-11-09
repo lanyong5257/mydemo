@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Oct 11 09:53:21 CST 2019
+guava-19.0.jar>central=
+guava-19.0.pom>central=
+guava-19.0.pom>nexus-pluginRepo=
+guava-19.0.pom>nexus-aliyun=
+guava-19.0.jar>nexus-repo=
+guava-19.0.jar>nexus-aliyun=
+guava-19.0.jar>nexus-pluginRepo=
+guava-19.0.pom>nexus-repo=

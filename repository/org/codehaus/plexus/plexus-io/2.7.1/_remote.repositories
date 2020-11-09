@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Oct 08 20:21:54 CST 2019
+plexus-io-2.7.1.pom>nexus-pluginRepo=
+plexus-io-2.7.1.pom>nexus-aliyun=
+plexus-io-2.7.1.jar>nexus-aliyun=
+plexus-io-2.7.1.jar>nexus-pluginRepo=

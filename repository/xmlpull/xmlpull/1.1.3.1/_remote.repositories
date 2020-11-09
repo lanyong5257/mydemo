@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Oct 11 09:49:44 CST 2019
+xmlpull-1.1.3.1.jar>central=
+xmlpull-1.1.3.1.pom>nexus-repo=
+xmlpull-1.1.3.1.pom>central=
+xmlpull-1.1.3.1.jar>nexus-repo=
+xmlpull-1.1.3.1.pom>nexus-aliyun=
+xmlpull-1.1.3.1.jar>nexus-aliyun=

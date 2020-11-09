@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Oct 11 09:49:44 CST 2019
+jsr311-api-1.1.1.pom>nexus-aliyun=
+jsr311-api-1.1.1.jar>nexus-aliyun=
+jsr311-api-1.1.1.pom>nexus-repo=
+jsr311-api-1.1.1.jar>nexus-repo=
+jsr311-api-1.1.1.jar>central=
+jsr311-api-1.1.1.pom>central=

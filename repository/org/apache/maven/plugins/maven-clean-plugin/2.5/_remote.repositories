@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Oct 11 10:01:50 CST 2019
+maven-clean-plugin-2.5.pom>nexus-aliyun=
+maven-clean-plugin-2.5.jar>nexus-aliyun=
+maven-clean-plugin-2.5.jar>nexus-pluginRepo=
+maven-clean-plugin-2.5.pom>nexus-pluginRepo=

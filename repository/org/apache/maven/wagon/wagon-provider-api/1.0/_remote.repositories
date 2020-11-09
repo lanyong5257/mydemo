@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Oct 08 20:23:32 CST 2019
+wagon-provider-api-1.0.pom>nexus-aliyun=
+wagon-provider-api-1.0.jar>nexus-pluginRepo=
+wagon-provider-api-1.0.jar>nexus-aliyun=
+wagon-provider-api-1.0.pom>nexus-pluginRepo=

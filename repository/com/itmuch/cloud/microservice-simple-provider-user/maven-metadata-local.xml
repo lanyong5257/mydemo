@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.itmuch.cloud</groupId>
+  <artifactId>microservice-simple-provider-user</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20191010090715</lastUpdated>
+  </versioning>
+</metadata>

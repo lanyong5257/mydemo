@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Sep 08 21:14:17 CST 2019
+log4j-api-2.11.2.pom>central=
+log4j-api-2.11.2.pom>nexus-repo=
+log4j-api-2.11.2.jar>nexus-repo=
+log4j-api-2.11.2.jar>central=

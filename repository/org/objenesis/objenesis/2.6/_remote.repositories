@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Sep 08 21:14:17 CST 2019
+objenesis-2.6.jar>central=
+objenesis-2.6.jar>nexus-repo=
+objenesis-2.6.pom>central=
+objenesis-2.6.pom>nexus-pluginRepo=
+objenesis-2.6.pom>nexus-repo=

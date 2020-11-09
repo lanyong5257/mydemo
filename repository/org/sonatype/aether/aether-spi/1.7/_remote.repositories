@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Oct 08 20:21:49 CST 2019
+aether-spi-1.7.jar>nexus-pluginRepo=
+aether-spi-1.7.pom>nexus-pluginRepo=
+aether-spi-1.7.pom>nexus-aliyun=
+aether-spi-1.7.jar>nexus-aliyun=

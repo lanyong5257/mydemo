@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.codehaus.plexus</groupId>
+  <artifactId>plexus</artifactId>
+  <version>1.0.8</version>
+  <packaging>pom</packaging>
+  <name>Plexus</name>
+  <inceptionYear>2001</inceptionYear>
+  <organization>
+    <name>Codehaus</name>
+    <url>http://www.codehaus.org/</url>
+  </organization>
+  <mailingLists>
+    <mailingList>
+      <name>Plexus Developer List</name>
+      <subscribe>http://lists.codehaus.org/mailman/listinfo/plexus-dev</subscribe>
+      <unsubscribe>http://lists.codehaus.org/mailman/listinfo/plexus-dev</unsubscribe>
+      <archive>http://lists.codehaus.org/pipermail/plexus-dev/</archive>
+    </mailingList>
+  </mailingLists>
+  <developers>
+    <developer>
+      <id>jvanzyl</id>
+      <name>Jason van Zyl</name>
+      <email>jason@maven.org</email>
+      <roles>
+        <role>Developer</role>
+        <role>Release Manager</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>kaz</id>
+      <name>Pete Kazmier</name>
+      <email></email>
+      <organization></organization>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>jtaylor</id>
+      <name>James Taylor</name>
+      <email>james@jamestaylor.org</email>
+      <organization></organization>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>dandiep</id>
+      <name>Dan Diephouse</name>
+      <email>dan@envoisolutions.com</email>
+      <organization>Envoi solutions</organization>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>kasper</id>
+      <name>Kasper Nielsen</name>
+      <email>apache@kav.dk</email>
+      <organization></organization>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>bwalding</id>
+      <name>Ben Walding</name>
+      <email>bwalding@codehaus.org</email>
+      <organization>Walding Consulting Services</organization>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>mhw</id>
+      <name>Mark Wilkinson</name>
+      <email>mhw@kremvax.net</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>michal</id>
+      <name>Michal Maczka</name>
+      <email>mmaczka@interia.pl</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>evenisse</id>
+      <name>Emmanuel Venisse</name>
+      <email>evenisse@codehaus.org</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>trygvis</id>
+      <name>Trygve Laugstol</name>
+      <email>trygvis@codehaus.org</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>kenney</id>
+      <name>Kenney Westerhof</name>
+      <email>kenney@codehaus.org</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>carlos</id>
+      <name>Carlos Sanchez</name>
+      <email>carlos@codehaus.org</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>brett</id>
+      <name>Brett Porter</name>
+      <email>brett@codehaus.org</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>jdcasey</id>
+      <name>John Casey</name>
+      <email>jdcasey@codehaus.org</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>http://jira.codehaus.org/browse/PLX</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:svn:http://svn.codehaus.org/plexus/trunk/</connection>
+    <developerConnection>scm:svn:https://svn.codehaus.org/plexus/trunk</developerConnection>
+  </scm>
+  <ciManagement>
+    <notifiers>
+      <notifier>
+        <configuration>
+          <address>dev@plexus.codehaus.org</address>
+        </configuration>
+      </notifier>
+      <notifier>
+        <type>irc</type>
+        <configuration>
+          <port>6667</port>
+          <channel>#plexus</channel>
+          <host>irc.codehaus.org</host>
+        </configuration>
+      </notifier>
+    </notifiers>
+  </ciManagement>
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-webdav</artifactId>
+        <version>1.0-beta-1</version>
+      </extension>
+    </extensions>
+    <plugins>
+      <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <configuration>
+          <tagBase>https://svn.codehaus.org/plexus/tags</tagBase>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <distributionManagement>
+    <repository>
+      <id>codehaus.org</id>
+      <name>Plexus Central Repository</name>
+      <url>dav:https://dav.codehaus.org/repository/plexus</url>
+    </repository>
+    <snapshotRepository>
+      <id>codehaus.org</id>
+      <name>Plexus Central Development Repository</name>
+      <url>dav:https://dav.codehaus.org/snapshots.repository/plexus</url>
+    </snapshotRepository>
+    <site>
+      <id>codehaus.org</id>
+      <url>dav:https://dav.codehaus.org/plexus</url>
+    </site>
+  </distributionManagement>
+  <modules>
+    <module>plexus-archetypes</module>
+    <module>plexus-examples</module>
+    <module>plexus-components</module>
+    <module>plexus-component-factories</module>
+    <module>plexus-containers</module>
+    <module>plexus-logging</module>
+    <module>plexus-maven-plugin</module>
+    <module>plexus-tools</module>
+    <module>plexus-utils</module>
+  </modules>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

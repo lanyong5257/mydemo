@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.itmuch.cloud</groupId>
+  <artifactId>hello</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200109022609</lastUpdated>
+  </versioning>
+</metadata>

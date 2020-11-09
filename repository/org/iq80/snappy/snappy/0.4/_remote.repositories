@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Oct 08 20:21:54 CST 2019
+snappy-0.4.pom>nexus-pluginRepo=
+snappy-0.4.pom>nexus-aliyun=
+snappy-0.4.jar>nexus-aliyun=
+snappy-0.4.jar>nexus-pluginRepo=

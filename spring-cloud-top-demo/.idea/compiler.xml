@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="enjoy-plugin" />
+        <module name="hello" />
+        <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-discovery-eureka-authenticating" />
+        <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-simple-consumer-movie" />
+        <module name="microservice-simple-provider-user" />
+        <module name="shiro" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hello" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
